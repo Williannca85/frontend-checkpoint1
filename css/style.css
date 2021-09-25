@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: solid;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.zoomPadrao {
+  font-size: 16px;
+}
+
+.container {
+  /* color: #A0ACAD; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(2, 87, 54);
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  text-align: center;
+}
+
+header nav {
+  padding-top: 4vh;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 2vh 5vw;
+  text-transform: uppercase;
+}
+
+main{
+  background-color: rgba(78, 76, 76, 0.959)
+}
+
+
+.box {
+  padding-top: 10vh;
+  box-sizing: unset;
+  width: 90vw;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.minha-cidade {
+  padding: 30px;
+  color: white;
+  background-image: url("../img/curitiba3.jpg");
+  height: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section p{
+ /*  text-transform: uppercase; */
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+
+}
+
+section li{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.video {
+  height: 100%;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+footer { 
+  text-align: center;
+  background-color: rgb(2, 87, 54);
+  margin: 0 auto;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+footer p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgb(255,255,255);
+}
+
+#by a {
+  list-style-type: lower-roman;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  display: inline;
+  color: rgb(255,255,255);
+}
+
+aside {
+  position: fixed;
+  width: 55px;
+  height: 105px;
+  right: 1vw;
+  bottom: 20vh;
+}
+
+aside a img {
+  width: 75%;
+}
+
+aside a:nth-child(2) {
+  padding-bottom: 50px;
+  
+}
+
+
